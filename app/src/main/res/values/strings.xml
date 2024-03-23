@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Rifat Al Aziz Quiz 1</string>
+    <string name="etName">Name</string>
+    <string name="tvType">Customer type</string>
+    <string name="rbGold">Gold</string>
+    <string name="rbSilver">Silver</string>
+    <string name="rbRegular">Regular</string>
+    <string name="itemCode">Item code (IPX,PCO,AAE)</string>
+    <string name="quantity">Quantity</string>
+    <string name="process">Process</string>
+    <string name="thanks">Thank you for shopping here!</string>
+    <string name="share">Share</string>
+    <string name="welcome">Welcome </string>
+    <string name="memberType">Member Type</string>
+    <string name="transaction">Today`s Transactions.</string>
+    <string name="itemName">"Item Name : "</string>
+    <string name="price">Price : Rp</string>
+    <string name="total">Total Price : Rp</string>
+    <string name="discount">Discount : Rp</string>
+    <string name="memDiscount">Member Discount : Rp</string>
+    <string name="payment">Payment Amount : Rp</string>
+
+
 </resources>

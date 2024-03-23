@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rifat Al Aziz  Викторина 1</string>
+    <string name="tvType">" Тип клиента"</string>
+    <string name="rbGold">" Золото"</string>
+    <string name="rbSilver">" Серебро"</string>
+    <string name="rbRegular">" Обычный"</string>
+    <string name="itemCode">" Код товара (IPX,PCO,AAE)"</string>
+    <string name="quantity">" Количество"</string>
+    <string name="process">" Процесс"</string>
+    <string name="thanks">Спасибо за покупку здесь!</string>
+    <string name="share">" Делиться"</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="memberType">Тип участника</string>
+    <string name="transaction">Сегодняшние сделки.</string>
+    <string name="itemName">"Имя элемента : "</string>
+    <string name="price">Цена : Rp</string>
+    <string name="total">Общая стоимость: Rp</string>
+    <string name="discount">Скидка: Rp</string>
+    <string name="memDiscount">Скидка для участников: Rp</string>
+    <string name="payment">Сумма платежа: Rp</string>
+    <string name="etName">Имя</string>
+</resources>

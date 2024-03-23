@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rifat Al Aziz クイズ1</string>
+    <string name="tvType">顧客タイプ</string>
+    <string name="rbGold">金</string>
+    <string name="rbSilver">" 銀"</string>
+    <string name="rbRegular">" 通常"</string>
+    <string name="itemCode">" 品目コード（IPX、PCO、AAE"</string>
+    <string name="quantity">量</string>
+    <string name="process">プロセス</string>
+    <string name="thanks">" ここでお買い物していただきありがとうございます!"</string>
+    <string name="share">" 共有"</string>
+    <string name="welcome">いらっしゃいませ</string>
+    <string name="memberType">" メンバータイプ"</string>
+    <string name="transaction">" 今日の取引。"</string>
+    <string name="itemName">" 項目名 ："</string>
+    <string name="price">" 価格 : Rp"</string>
+    <string name="total">" 合計金額 : Rp"</string>
+    <string name="discount">" 割引 : Rp"</string>
+    <string name="memDiscount">" 会員割引 : Rp"</string>
+    <string name="payment">" 支払い金額 : Rp"</string>
+    <string name="etName">" 名前"</string>
+</resources>

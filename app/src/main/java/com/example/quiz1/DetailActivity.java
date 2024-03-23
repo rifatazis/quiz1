@@ -35,15 +35,15 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             double diskonMember = intent.getDoubleExtra("diskonMember", 0);
             double jumlahBayar = intent.getDoubleExtra("jumlahBayar", 0);
 
-            tvAtas.setText("Selamat Datang " + nama + "\n Tipe Member " + tipeMember);
-            tvTengah.setText("Transaksi Hari Ini.\n" +
-                            "Kode Barang: " + kodeBarang + "\n" +
-                            "Nama Barang: " + namaBarang + "\n" +
-                            "Harga: Rp. " + x.format(hargaBarang) + "\n" +
-                            "Total Harga: Rp. " + x.format(totalHarga) + "\n" +
-                            "Discount Harga: Rp. " + x.format(diskonHarga) + "\n" +
-                            "Discount Member: Rp. " + x.format(diskonMember) + "\n" +
-                            "Jumlah Bayar: Rp. " + x.format(jumlahBayar));
+            tvAtas.setText(getString(R.string.welcome) + nama + "\n"+getString(R.string.memberType) + tipeMember);
+            tvTengah.setText("\n"+ getString(R.string.transaction) + "\n" +
+                            getString(R.string.itemCode)+": " + kodeBarang + "\n" +
+                            getString(R.string.itemName)+ namaBarang + "\n" +
+                            getString(R.string.price)+ ""+  x.format(hargaBarang) + "\n" +
+                            getString(R.string.total)+ "" + x.format(totalHarga) + "\n" +
+                            getString(R.string.discount)+ "" + x.format(diskonHarga) + "\n" +
+                            getString(R.string.memDiscount)+ "" + x.format(diskonMember) + "\n" +
+                            getString(R.string.payment)+ "" + x.format(jumlahBayar));
 
             btnShare.setOnClickListener(this);
         }

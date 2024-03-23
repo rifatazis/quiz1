@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        String nama = etNama.getText().toString();
-        String kode = etKode.getText().toString().toUpperCase();
-        int jumlah = Integer.parseInt(etJumlah.getText().toString());
+        String nama = etNama.getText().toString().trim();
+        String kode = etKode.getText().toString().trim().toUpperCase();
+        int jumlah = Integer.parseInt(etJumlah.getText().toString().trim());
 
         double totalSementara = 0;
         double hargaBarang = 0;
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 NamaBarang = " Acer Aspire E14 ";
                 break;
             default:
-                Toast.makeText(this, "pilih IPX,PCO, atau AAE", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Select IPX, PCO, or AAE", Toast.LENGTH_SHORT).show();
                 return;
         }
 

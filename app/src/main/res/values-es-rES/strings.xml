@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rifat Al Aziz Quiz 1</string>
+    <string name="etName">" Nombre"</string>
+    <string name="tvType">Tipo de cliente</string>
+    <string name="rbGold">" Oro"</string>
+    <string name="rbSilver">" Plata"</string>
+    <string name="rbRegular">" Regular"</string>
+    <string name="itemCode">Código de artículo (IPX, PCO, AAE)</string>
+    <string name="quantity">" Cantidad"</string>
+    <string name="process">" Proceso"</string>
+    <string name="thanks">" ¡Gracias por comprar aquí!"</string>
+    <string name="share">" Compartir"</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="memberType">Tipo de miembro</string>
+    <string name="transaction">Transacciones de hoy.</string>
+    <string name="itemName">"Nombre del árticulo : "</string>
+    <string name="price">Precio: Rp</string>
+    <string name="total">Precio total: Rp</string>
+    <string name="discount">Descuento: Rp</string>
+    <string name="memDiscount">" Descuento para miembros: Rp"</string>
+    <string name="payment">Monto del pago: Rp</string>
+</resources>
